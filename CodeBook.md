@@ -22,7 +22,7 @@ in activity_labels.txt.  And lastly, the measurments themselves are found in the
 These 561 variables are identified using the features.txt file.
 The same logic applies to the 'test' version of all those files.
 
-## 
+## Walkthrough of data cleaning and tidying
 Now that we know what each file means, we can work to paste it all back together into a single workable data set.
 
 1. Apply the feature names from features.txt to each x data set using the colnames() function.
