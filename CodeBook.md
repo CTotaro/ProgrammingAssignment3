@@ -38,8 +38,8 @@ columns that have either
 	-the regex "std"
 grep() will return the indexes of each column with either mean or std.  Store this vector for later use.
 
-*I am interpreting a strict definition of "mean" and "std", which is why I exclude the "meanFreq" values*
-*Not sure if this is what most others do, but it did seem open for interpretation*
+	*I am interpreting a strict definition of "mean" and "std", which is why I exclude the "meanFreq" values*
+	*Not sure if this is what most others do, but it did seem open for interpretation*
 
 6. Create a new data frame, subsetted by only taking columns using the mean/std index vector from step 5.
 7. Import the activity_labels file to examine which numeric value corresponds to which activity.
