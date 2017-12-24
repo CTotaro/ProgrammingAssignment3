@@ -56,134 +56,71 @@ to be descriptive of the activity that was being performed, using a series of ne
 
 ## Code Book for Variable Names in tidy_data.txt
 
-1.	Subject	Numeric value indicating which test subject performed the activity
-2.	Activity	Description of the activity being performed and measured
-3.	tBodyAcc-mean()-X	Average of the mean accelerometer X-direction body signal, in the time domain
-4.	tBodyAcc-mean()-Y	Average of the mean accelerometer Y-direction body signal, in the time domain
-5.	tBodyAcc-mean()-Z	Average of the mean accelerometer Y-direction body signal, in the time domain
-
-6	tBodyAcc-std()-X	Average of the standard deviation accelerometer X-direction body signal, in the time domain
-
-7	tBodyAcc-std()-Y	Average of the standard deviation accelerometer Y-direction body signal, in the time domain
-
-8	tBodyAcc-std()-Z	Average of the standard deviation accelerometer Z-direction body signal, in the time domain
-
-9	tGravityAcc-mean()-X	Average of the mean accelerometer X-direction gravity signal, in the time domain
-
-10	tGravityAcc-mean()-Y	Average of the mean accelerometer Y-direction gravity signal, in the time domain
-
-11	tGravityAcc-mean()-Z	Average of the mean accelerometer Z-direction gravity signal, in the time domain
-
-12	tGravityAcc-std()-X	Average of the standard deviation accelerometer X-direction gravity signal, in the time domain
-
-13	tGravityAcc-std()-Y	Average of the standard deviation accelerometer X-direction gravity signal, in the time domain
-
-14	tGravityAcc-std()-Z	Average of the standard deviation accelerometer X-direction gravity signal, in the time domain
-
-15	tBodyAccJerk-mean()-X	Average of the mean accelerometer X-direction body jerk, in the time domain
-
-16	tBodyAccJerk-mean()-Y	Average of the mean accelerometer Y-direction body jerk, in the time domain
-
-17	tBodyAccJerk-mean()-Z	Average of the mean accelerometer Z-direction body jerk, in the time domain
-
-18	tBodyAccJerk-std()-X	Average of the standard deviation accelerometer X-direction body jerk, in the time domain
-
-19	tBodyAccJerk-std()-Y	Average of the standard deviation accelerometer Y-direction body jerk, in the time domain
-
-20	tBodyAccJerk-std()-Z	Average of the standard deviation accelerometer Z-direction body jerk, in the time domain
-
-21	tBodyGyro-mean()-X	Average of the mean accelerometer X-direction body signal, in the time domain
-
-22	tBodyGyro-mean()-Y	Average of the mean gyroscope Y-direction body signal, in the time domain
-
-23	tBodyGyro-mean()-Z	Average of the mean gyroscope Y-direction body signal, in the time domain
-
-24	tBodyGyro-std()-X	Average of the standard deviation gyroscope X-direction body signal, in the time domain
-
-25	tBodyGyro-std()-Y	Average of the standard deviation gyroscope Y-direction body signal, in the time domain
-
-26	tBodyGyro-std()-Z	Average of the standard deviation gyroscope Z-direction body signal, in the time domain
-
-27	tBodyGyroJerk-mean()-X	Average of the mean gyroscope X-direction body jerk, in the time domain
-
-28	tBodyGyroJerk-mean()-Y	Average of the mean gyroscope Y-direction body jerk, in the time domain
-
-29	tBodyGyroJerk-mean()-Z	Average of the mean gyroscope Z-direction body jerk, in the time domain
-
-30	tBodyGyroJerk-std()-X	Average of the standard deviation gyroscope X-direction body jerk, in the time domain
-
-31	tBodyGyroJerk-std()-Y	Average of the standard deviation gyroscope Y-direction body jerk, in the time domain
-
-32	tBodyGyroJerk-std()-Z	Average of the standard deviation gyroscope Z-direction body jerk, in the time domain
-
-33	tBodyAccMag-mean()	Average of the mean 3-dimensional accelerometer body magnitude, in the time domain
-
-34	tBodyAccMag-std()	Average of the standard deviation 3-dimensional accelerometer body magnitude, in the time domain
-
-35	tGravityAccMag-mean()	Average of the mean 3-dimensional accelerometer gravity magnitude, in the time domain
-
-36	tGravityAccMag-std()	Average of the standard deviation 3-dimensional accelerometer gravity magnitude, in the time domain
-
-37	tBodyAccJerkMag-mean()	Average of the mean 3-dimensional accelerometer body jerk magnitude, in the time domain
-
-38	tBodyAccJerkMag-std()	Average of the standard deviation 3-dimensional accelerometer body jerk magnitude, in the time domain
-
-39	tBodyGyroMag-mean()	Average of the mean 3-dimensional gyroscope body magnitude, in the time domain
-
-40	tBodyGyroMag-std()	Average of the standard deviation 3-dimensional gyroscope body magnitude, in the time domain
-
-41	tBodyGyroJerkMag-mean()	Average of the mean 3-dimensional gyroscope body jerk magnitude, in the time domain
-
-42	tBodyGyroJerkMag-std()	Average of the standard deviation 3-dimensional gyroscope body jerk magnitude, in the time domain
-
-43	fBodyAcc-mean()-X	Average of the mean accelerometer X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-44	fBodyAcc-mean()-Y	Average of the mean accelerometer Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-45	fBodyAcc-mean()-Z	Average of the mean accelerometer Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-46	fBodyAcc-std()-X	Average of the standard deviation accelerometer X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-47	fBodyAcc-std()-Y	Average of the standard deviation accelerometer Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-48	fBodyAcc-std()-Z	Average of the standard deviation accelerometer Z-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-49	fBodyAccJerk-mean()-X	Average of the mean accelerometer X-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-50	fBodyAccJerk-mean()-Y	Average of the mean accelerometer Y-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-51	fBodyAccJerk-mean()-Z	Average of the mean accelerometer Y-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-52	fBodyAccJerk-std()-X	Average of the standard deviation accelerometer X-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-53	fBodyAccJerk-std()-Y	Average of the standard deviation accelerometer Y-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-54	fBodyAccJerk-std()-Z	Average of the standard deviation accelerometer Z-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-55	fBodyGyro-mean()-X	Average of the mean gyroscope X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-56	fBodyGyro-mean()-Y	Average of the mean gyroscope Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-57	fBodyGyro-mean()-Z	Average of the mean gyroscope Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-58	fBodyGyro-std()-X	Average of the standard deviation gyroscope X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-59	fBodyGyro-std()-Y	Average of the standard deviation gyroscope Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-60	fBodyGyro-std()-Z	Average of the standard deviation gyroscope Z-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-61	fBodyAccMag-mean()	Average of the mean 3-dimensional accelerometer body magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-62	fBodyAccMag-std()	Average of the standard deviation 3-dimensional accelerometer body magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-63	fBodyBodyAccJerkMag-mean()	Average of the mean 3-dimensional accelerometer body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-64	fBodyBodyAccJerkMag-std()	Average of the standard deviation 3-dimensional accelerometer body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-65	fBodyBodyGyroMag-mean()	Average of the mean 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-66	fBodyBodyGyroMag-std()	Average of the standard deviation 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-67	fBodyBodyGyroJerkMag-mean()	Average of the mean 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
-
-68	fBodyBodyGyroJerkMag-std()	Average of the standard deviation 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.
+1.	Subject			*Numeric value indicating which test subject performed the activity*
+2.	Activity		*Description of the activity being performed and measured*
+3.	tBodyAcc-mean()-X	*Average of the mean accelerometer X-direction body signal, in the time domain*
+4.	tBodyAcc-mean()-Y	*Average of the mean accelerometer Y-direction body signal, in the time domain*
+5.	tBodyAcc-mean()-Z	*Average of the mean accelerometer Y-direction body signal, in the time domain*
+6.	tBodyAcc-std()-X	*Average of the standard deviation accelerometer X-direction body signal, in the time domain*
+7.	tBodyAcc-std()-Y	*Average of the standard deviation accelerometer Y-direction body signal, in the time domain*
+8.	tBodyAcc-std()-Z	*Average of the standard deviation accelerometer Z-direction body signal, in the time domain*
+9.	tGravityAcc-mean()-X	*Average of the mean accelerometer X-direction gravity signal, in the time domain*
+10.	tGravityAcc-mean()-Y	*Average of the mean accelerometer Y-direction gravity signal, in the time domain*
+11.	tGravityAcc-mean()-Z	*Average of the mean accelerometer Z-direction gravity signal, in the time domain*
+12.	tGravityAcc-std()-X	*Average of the standard deviation accelerometer X-direction gravity signal, in the time domain*
+13.	tGravityAcc-std()-Y	*Average of the standard deviation accelerometer X-direction gravity signal, in the time domain*
+14.	tGravityAcc-std()-Z	*Average of the standard deviation accelerometer X-direction gravity signal, in the time domain*
+15.	tBodyAccJerk-mean()-X	*Average of the mean accelerometer X-direction body jerk, in the time domain*
+16.	tBodyAccJerk-mean()-Y	*Average of the mean accelerometer Y-direction body jerk, in the time domain*
+17.	tBodyAccJerk-mean()-Z	*Average of the mean accelerometer Z-direction body jerk, in the time domain*
+18.	tBodyAccJerk-std()-X	*Average of the standard deviation accelerometer X-direction body jerk, in the time domain*
+19.	tBodyAccJerk-std()-Y	*Average of the standard deviation accelerometer Y-direction body jerk, in the time domain*
+20.	tBodyAccJerk-std()-Z	*Average of the standard deviation accelerometer Z-direction body jerk, in the time domain*
+21.	tBodyGyro-mean()-X	*Average of the mean accelerometer X-direction body signal, in the time domain*
+22.	tBodyGyro-mean()-Y	*Average of the mean gyroscope Y-direction body signal, in the time domain*
+23.	tBodyGyro-mean()-Z	*Average of the mean gyroscope Y-direction body signal, in the time domain*
+24.	tBodyGyro-std()-X	*Average of the standard deviation gyroscope X-direction body signal, in the time domain*
+25.	tBodyGyro-std()-Y	*Average of the standard deviation gyroscope Y-direction body signal, in the time domain*
+26.	tBodyGyro-std()-Z	*Average of the standard deviation gyroscope Z-direction body signal, in the time domain*
+27.	tBodyGyroJerk-mean()-X	*Average of the mean gyroscope X-direction body jerk, in the time domain*
+28.	tBodyGyroJerk-mean()-Y	*Average of the mean gyroscope Y-direction body jerk, in the time domain*
+29.	tBodyGyroJerk-mean()-Z	*Average of the mean gyroscope Z-direction body jerk, in the time domain*
+30.	tBodyGyroJerk-std()-X	*Average of the standard deviation gyroscope X-direction body jerk, in the time domain*
+31.	tBodyGyroJerk-std()-Y	*Average of the standard deviation gyroscope Y-direction body jerk, in the time domain*
+32.	tBodyGyroJerk-std()-Z	*Average of the standard deviation gyroscope Z-direction body jerk, in the time domain*
+33.	tBodyAccMag-mean()	*Average of the mean 3-dimensional accelerometer body magnitude, in the time domain*
+34.	tBodyAccMag-std()	*Average of the standard deviation 3-dimensional accelerometer body magnitude, in the time domain*
+35.	tGravityAccMag-mean()	*Average of the mean 3-dimensional accelerometer gravity magnitude, in the time domain*
+36.	tGravityAccMag-std()	*Average of the standard deviation 3-dimensional accelerometer gravity magnitude, in the time domain*
+37.	tBodyAccJerkMag-mean()	*Average of the mean 3-dimensional accelerometer body jerk magnitude, in the time domain*
+38.	tBodyAccJerkMag-std()	*Average of the standard deviation 3-dimensional accelerometer body jerk magnitude, in the time domain*
+39.	tBodyGyroMag-mean()	*Average of the mean 3-dimensional gyroscope body magnitude, in the time domain*
+40.	tBodyGyroMag-std()	*Average of the standard deviation 3-dimensional gyroscope body magnitude, in the time domain*
+41.	tBodyGyroJerkMag-mean()	*Average of the mean 3-dimensional gyroscope body jerk magnitude, in the time domain*
+42.	tBodyGyroJerkMag-std()	*Average of the standard deviation 3-dimensional gyroscope body jerk magnitude, in the time domain*
+43.	fBodyAcc-mean()-X	*Average of the mean accelerometer X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+44.	fBodyAcc-mean()-Y	*Average of the mean accelerometer Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+45.	fBodyAcc-mean()-Z	*Average of the mean accelerometer Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+46.	fBodyAcc-std()-X	*Average of the standard deviation accelerometer X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+47.	fBodyAcc-std()-Y	*Average of the standard deviation accelerometer Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+48.	fBodyAcc-std()-Z	*Average of the standard deviation accelerometer Z-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+49.	fBodyAccJerk-mean()-X	*Average of the mean accelerometer X-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+50.	fBodyAccJerk-mean()-Y	*Average of the mean accelerometer Y-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+51.	fBodyAccJerk-mean()-Z	*Average of the mean accelerometer Y-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+52.	fBodyAccJerk-std()-X	*Average of the standard deviation accelerometer X-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+53.	fBodyAccJerk-std()-Y	*Average of the standard deviation accelerometer Y-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+54.	fBodyAccJerk-std()-Z	*Average of the standard deviation accelerometer Z-direction body jerk, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+55.	fBodyGyro-mean()-X	*Average of the mean gyroscope X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+56.	fBodyGyro-mean()-Y	*Average of the mean gyroscope Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+57.	fBodyGyro-mean()-Z	*Average of the mean gyroscope Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+58.	fBodyGyro-std()-X	*Average of the standard deviation gyroscope X-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+59.	fBodyGyro-std()-Y	*Average of the standard deviation gyroscope Y-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+60.	fBodyGyro-std()-Z	*Average of the standard deviation gyroscope Z-direction body signal, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+61.	fBodyAccMag-mean()	*Average of the mean 3-dimensional accelerometer body magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+62.	fBodyAccMag-std()	*Average of the standard deviation 3-dimensional accelerometer body magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+63.	fBodyBodyAccJerkMag-mean()	*Average of the mean 3-dimensional accelerometer body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+64.	fBodyBodyAccJerkMag-std()	*Average of the standard deviation 3-dimensional accelerometer body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+65.	fBodyBodyGyroMag-mean()	*Average of the mean 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+66.	fBodyBodyGyroMag-std()	*Average of the standard deviation 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+67.	fBodyBodyGyroJerkMag-mean()	*Average of the mean 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
+68.	fBodyBodyGyroJerkMag-std()	*Average of the standard deviation 3-dimensional gyroscope body jerk magnitude, in the frequency domain. Obtained by applyinf Fast Fourier Transform (FFT) to the time domain analog.*
