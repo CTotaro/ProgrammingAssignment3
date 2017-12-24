@@ -56,15 +56,11 @@ to be descriptive of the activity that was being performed, using a series of ne
 
 ## Code Book for Variable Names in tidy_data.txt
 
-1	Subject	Numeric value indicating which test subject performed the activity
-
-2	Activity	Description of the activity being performed and measured
-
-3	tBodyAcc-mean()-X	Average of the mean accelerometer X-direction body signal, in the time domain
-
-4	tBodyAcc-mean()-Y	Average of the mean accelerometer Y-direction body signal, in the time domain
-
-5	tBodyAcc-mean()-Z	Average of the mean accelerometer Y-direction body signal, in the time domain
+1.	Subject	Numeric value indicating which test subject performed the activity
+2.	Activity	Description of the activity being performed and measured
+3.	tBodyAcc-mean()-X	Average of the mean accelerometer X-direction body signal, in the time domain
+4.	tBodyAcc-mean()-Y	Average of the mean accelerometer Y-direction body signal, in the time domain
+5.	tBodyAcc-mean()-Z	Average of the mean accelerometer Y-direction body signal, in the time domain
 
 6	tBodyAcc-std()-X	Average of the standard deviation accelerometer X-direction body signal, in the time domain
 
